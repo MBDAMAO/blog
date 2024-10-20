@@ -103,8 +103,6 @@ theme: Kratos-Rebirth
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  ##repo: https://gitee.com/MBDAMAO/MBDAMAO.git
-  ##repo: git@github.com:MBDAMAO/MBDAMAO.github.io.git
   repo: https://github.com/MBDAMAO/MBDAMAO.github.io.git
   branch: master
   message:
