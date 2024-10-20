@@ -1,9 +1,9 @@
 # Global 全局配置
-site_analytics: ''
+site_analytics: ""
 hoster: <a href="https://github.io" target="_blank">Github Pages</a>
-site_logo: ''
+site_logo: ""
 snow: false
-click_animate_js: 'candy'
+click_animate_js: "candy"
 enable_dark: true
 highlight_theme: night-eighties # 代码高亮主题（light | night | night-eighties | night-blue | night-bright）
 check_update: true
@@ -11,35 +11,35 @@ check_update: true
 
 vendors:
   packages:
-    disqusjs: 
+    disqusjs:
       version: 1.2.6
-    gitalk: 
+    gitalk:
       version: 1.7.2
-    gitment: 
+    gitment:
       version: 0.0.3
-    twikoo: 
+    twikoo:
       version: 1.5.11
-    valine: 
+    valine:
       version: 1.4.18
-    "@waline/client": 
+    "@waline/client":
       version: 2.14.1
-    bootstrap: 
+    bootstrap:
       version: 3.3.4
-    nprogress: 
+    nprogress:
       version: 0.2.0
-    aplayer: 
+    aplayer:
       version: 1.10.1
-    "@fancyapps/fancybox": 
+    "@fancyapps/fancybox":
       version: 3.5.7
-    layui-src: 
+    layui-src:
       version: 2.5.5
-    font-awesome: 
+    font-awesome:
       version: 4.7.0
-    jquery: 
+    jquery:
       version: 3.6.0
-    qrcode_js: 
+    qrcode_js:
       version: 1.0.0
-    mermaid: 
+    mermaid:
       version: 9.1.1
     meting:
       version: 2.0.1
@@ -47,7 +47,7 @@ vendors:
 # 自定义样式
 customStyles:
   images: # 图片相关设置
-    # banner: /images/banner.webp # 站点横幅
+    banner: /images//banner.webp # 站点横幅
     # background: /images/bg.webp # 站点背景
 
 # Index 首页配置
@@ -76,14 +76,14 @@ label:
   #   project: 项目链接
 
 # Footer 页脚配置
-group_link: 
+group_link:
 contact: # 出于兼容性考虑，继续保留
-  weibo: 
-  mail: 
+  weibo:
+  mail:
   telegram:
-  twitter: 
-  facebook: 
-  linkedin: 
+  twitter:
+  facebook:
+  linkedin:
   fediverse:
     instance:
     username:
@@ -91,44 +91,44 @@ contact: # 出于兼容性考虑，继续保留
   rss:
 footerLinks: [] # 可以自定义
 timenotice: 本站已运行
-icp: 
+icp:
 psr:
-  
+
 # Post Page 文章页配置
 posts:
   show_cc: true
   donate: false
   share: true
-  comments: 
-    provider: ''
+  comments:
+    provider: ""
     enableBGImage: false
-  wordCount: 
+  wordCount:
     enable: true
     threshold: 1500
 
 # Disqus [Disqus](https://disqus.com) 评论相关
 disqus:
-  shortname: 
+  shortname:
 
 # DisqusJS [DisqusJS](https://disqusjs.skk.moe/) 评论相关
 disqusjs:
-  shortname: 
-  sitename: 
-  api: 
-  apikey: 
-  admin: 
-  adminlabel: 
+  shortname:
+  sitename:
+  api:
+  apikey:
+  admin:
+  adminlabel:
 
 # Valine [Valine](https://valine.js.org) 评论相关
 valine:
-  app_id: 
-  app_key: 
+  app_id:
+  app_key:
   visitor: true
   enableQQ: false
 
 # Twikoo [Twikoo](https://twikoo.js.org) 评论相关
 twikoo:
-  env_id: 
+  env_id:
 
 # Waline [Waline](https://waline.js.org) 评论相关
 ## 不仅限于以下内容，您可以参照 Waline的 [前端配置文档](https://waline.js.org/reference/client.html) 设置您需要的配置项
@@ -142,12 +142,12 @@ waline:
 ## 不仅限于以下内容，您可以参照 [Gitalk 文档](https://github.com/gitalk/gitalk/blob/master/readme-cn.md#%E8%AE%BE%E7%BD%AE) 设置您需要的配置项
 ## id 会在页面自动生成，不必加入
 gitalk:
-  clientID: 'GitHub Application Client ID'
-  clientSecret: 'GitHub Application Client Secret'
-  repo: 'Kratos-Rebirth-Demo'
-  owner: 'Candinya'
-  admin: 
-    - 'Candinya'
+  clientID: "GitHub Application Client ID"
+  clientSecret: "GitHub Application Client Secret"
+  repo: "Kratos-Rebirth-Demo"
+  owner: "Candinya"
+  admin:
+    - "Candinya"
   distractionFreeMode: false
 
 #默认不计算hash 但是如果id过长(默认为url_for(page.path))会导致创建评论区失败 见[#139](https://github.com/Candinya/Kratos-Rebirth/issues/139)
@@ -158,11 +158,11 @@ gitalk_id_hasher: false
 ## 不仅限于以下内容，您可以参照 [Gitment 文档](https://github.com/imsun/gitment#methods) 设置您需要的配置项
 ## id 会在页面自动生成，不必加入
 gitment:
-  owner: 'Candinya'
-  repo: 'Kratos-Rebirth-Demo'
+  owner: "Candinya"
+  repo: "Kratos-Rebirth-Demo"
   oauth:
-    client_id: 'Your client ID'
-    client_secret: 'Your client secret'
+    client_id: "Your client ID"
+    client_secret: "Your client secret"
 
 # LiveRe [LiveRe](https://livere.com/) 评论相关
 livere:
@@ -172,7 +172,7 @@ livere:
 # APlayer 左下角音乐播放器
 aplayer:
   enabled: true
-  playlist: 
+  playlist:
   meting:
     server: netease
     type: playlist
@@ -182,14 +182,14 @@ aplayer:
 # Widgets 侧边栏小挂件
 sidebar: right
 widgets:
-- about
-- splitter
-- toc
-- category
-- tagcloud
-- posts
+  - about
+  - splitter
+  - toc
+  - category
+  - tagcloud
+  - posts
 avatarUri: /images/avatar.webp
-mobile_toc: 
+mobile_toc:
   hide: false
   hide_id: false
 
@@ -210,7 +210,7 @@ jsconfig:
     cover:
       randomAmount: 20 # 表示从1~20
       baseUrl: null # 使用默认值（不单独配置），将跟随 vendors 中的相关设定选择是否使用 cdn
-      filenameTemplate: "thumb_{no}.webp" 
+      filenameTemplate: "thumb_{no}.webp"
     createTime: "2018/05/06 17:03:12"
     donateBtn: "支持我~"
     scanNotice: "扫一扫，好不好？"
@@ -225,9 +225,9 @@ jsconfig:
 
 # Site verify 站点验证相关配置内容
 site_verify:
-  google: 
-  baidu: 
-  bing: 
+  google:
+  baidu:
+  bing:
 
 # Friends 友链相关内容
 friends:
